@@ -31,6 +31,7 @@
             this.lblFormaUno = new System.Windows.Forms.Label();
             this.bttLLamarAformaDos = new System.Windows.Forms.Button();
             this.btnCerrar = new System.Windows.Forms.Button();
+            this.btnLlamarAFormaTres = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblFormaUno
@@ -48,8 +49,8 @@
             // 
             // bttLLamarAformaDos
             // 
-            this.bttLLamarAformaDos.Location = new System.Drawing.Point(600, 434);
-            this.bttLLamarAformaDos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bttLLamarAformaDos.Location = new System.Drawing.Point(600, 364);
+            this.bttLLamarAformaDos.Margin = new System.Windows.Forms.Padding(4);
             this.bttLLamarAformaDos.Name = "bttLLamarAformaDos";
             this.bttLLamarAformaDos.Size = new System.Drawing.Size(355, 65);
             this.bttLLamarAformaDos.TabIndex = 1;
@@ -59,7 +60,7 @@
             // 
             // btnCerrar
             // 
-            this.btnCerrar.Location = new System.Drawing.Point(77, 431);
+            this.btnCerrar.Location = new System.Drawing.Point(70, 443);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(157, 70);
             this.btnCerrar.TabIndex = 2;
@@ -67,15 +68,26 @@
             this.btnCerrar.UseVisualStyleBackColor = true;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
+            // btnLlamarAFormaTres
+            // 
+            this.btnLlamarAFormaTres.Location = new System.Drawing.Point(600, 445);
+            this.btnLlamarAFormaTres.Name = "btnLlamarAFormaTres";
+            this.btnLlamarAFormaTres.Size = new System.Drawing.Size(355, 68);
+            this.btnLlamarAFormaTres.TabIndex = 3;
+            this.btnLlamarAFormaTres.Text = "Llamar A Forma Tres";
+            this.btnLlamarAFormaTres.UseVisualStyleBackColor = true;
+            this.btnLlamarAFormaTres.Click += new System.EventHandler(this.btnLlamarAFormaTres_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.btnLlamarAFormaTres);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.bttLLamarAformaDos);
             this.Controls.Add(this.lblFormaUno);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -88,6 +100,7 @@
         private System.Windows.Forms.Label lblFormaUno;
         private System.Windows.Forms.Button bttLLamarAformaDos;
         private System.Windows.Forms.Button btnCerrar;
+        private System.Windows.Forms.Button btnLlamarAFormaTres;
     }
 }
 
