@@ -27,5 +27,10 @@ namespace LVAPV07
             FrmDos frmDos = new FrmDos();
             frmDos.Show();
         }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
